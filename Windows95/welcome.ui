@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #008282</string>
+   </property>
+   <widget class="QLabel" name="icon_computer">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>10</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/windows_95_all_icons_by_vovan29_ddbo0ro/Windows 95 ALL ICONS v1.1/Sort by Category [Without duplicates]/Computers/My Computer.ico</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MyComputer">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>64</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>My Computer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_network">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>86</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/networkNeighborhood.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="network">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Network
+Neighborhood</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Inbox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>64</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inbox</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_inbox">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>180</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/windows_95_all_icons_by_vovan29_ddbo0ro/Windows 95 ALL ICONS v1.1/Sort by Category [Without duplicates]/Mail &amp; Letters/Mail.ico</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_recycle">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>258</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/windows_95_all_icons_by_vovan29_ddbo0ro/Windows 95 ALL ICONS v1.1/Sort by Category [Without duplicates]/Recycle Bins/Empty Recycle Bin.ico</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RecycleBin">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>64</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reccyle Bin</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_msn">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>336</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/windows_95_all_icons_by_vovan29_ddbo0ro/Windows 95 ALL ICONS v1.1/Sort by Category [Without duplicates]/MSN/MSN.ico</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MSN">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>64</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>The Microsoft
+Network</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="icon_briefcase">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>430</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/windows_95_all_icons_by_vovan29_ddbo0ro/Windows 95 ALL ICONS v1.1/Sort by Category [Without duplicates]/Briefcases/Briefcase.ico</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MyBriefcase">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>64</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>My Briefcase</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QFrame" name="Taskbar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>538</y>
+      <width>701</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #c3c3c3</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="Start">
+     <property name="geometry">
+      <rect>
+       <x>3</x>
+       <y>3</y>
+       <width>60</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Start</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/win95.png</normaloff>images/win95.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Welcome">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>3</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Welcome</string>
+     </property>
+    </widget>
+    <widget class="QScrollArea" name="Sroll_Time">
+     <property name="geometry">
+      <rect>
+       <x>632</x>
+       <y>3</y>
+       <width>64</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="Sroll_TimeContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>62</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="currentTime">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>1</y>
+         <width>64</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>10:00 AM</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="Program">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>60</y>
+      <width>540</width>
+      <height>390</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #c3c3c3</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="Tab_bar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>1</y>
+       <width>537</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #000082</string>
+     </property>
+     <widget class="QLabel" name="tabTitle">
+      <property name="geometry">
+       <rect>
+        <x>2</x>
+        <y>1</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white</string>
+      </property>
+      <property name="text">
+       <string>Welcome</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="quit">
+      <property name="geometry">
+       <rect>
+        <x>517</x>
+        <y>2</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe MDL2 Assets</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #c3c3c3</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/quitB.png</normaloff>images/quitB.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>12</width>
+        <height>12</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="Windows">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>34</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>21</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Windows</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Windows_95">
+     <property name="geometry">
+      <rect>
+       <x>291</x>
+       <y>34</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>21</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white</string>
+     </property>
+     <property name="text">
+      <string>95</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Welcometo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>34</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>21</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Welcome to</string>
+     </property>
+    </widget>
+    <widget class="QScrollArea" name="content">
+     <property name="geometry">
+      <rect>
+       <x>18</x>
+       <y>75</y>
+       <width>371</width>
+       <height>290</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="content_contents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>369</width>
+        <height>288</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="WhatsNew">
+     <property name="geometry">
+      <rect>
+       <x>399</x>
+       <y>75</y>
+       <width>130</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>What's New</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="OnlineRegister">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>110</y>
+       <width>130</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Online Registration</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>200</y>
+       <width>130</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Close">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>215</y>
+       <width>130</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>MyComputer</zorder>
+   <zorder>network</zorder>
+   <zorder>icon_network</zorder>
+   <zorder>icon_computer</zorder>
+   <zorder>Inbox</zorder>
+   <zorder>icon_inbox</zorder>
+   <zorder>icon_recycle</zorder>
+   <zorder>RecycleBin</zorder>
+   <zorder>icon_msn</zorder>
+   <zorder>MSN</zorder>
+   <zorder>icon_briefcase</zorder>
+   <zorder>MyBriefcase</zorder>
+   <zorder>Taskbar</zorder>
+   <zorder>Program</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
