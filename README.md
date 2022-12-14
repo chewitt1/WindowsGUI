@@ -1,2 +1,2 @@
-# Windows95GUI
-Windows 95 GUI made with PyQt
+# Window GUI
+Windows GUI through the years: Made with PyQt Designer
